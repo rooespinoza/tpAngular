@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {HomeComponent} from './components/home/home.component';
 import {UbicacionComponent} from './components/ubicacion/ubicacion.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { GrillaProductosComponent } from './components/grilla-productos/grilla-productos.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HomeComponent,
     UbicacionComponent,
     NavbarComponent,
+    GrillaProductosComponent,
    
   ],
   imports: [
